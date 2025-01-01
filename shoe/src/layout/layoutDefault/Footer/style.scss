@@ -1,0 +1,40 @@
+.container {
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    padding-top: 98px;
+    .footer-row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-col{
+        &__title{
+            font-size: 16px;
+            font-family:  Georgia, serif,Rokkitt;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        &__content,.footer-col__content__item{
+            font-size: 14px;
+            font-family:  Arial, sans-serif;
+            color: #5b5b5b;
+            &__item{
+                margin-bottom: 10px;
+                text-transform: uppercase;
+                
+            }
+        }
+        &__icon{
+            display: flex;
+            &__item{
+                justify-content: flex-start;
+                margin-right: 10px;  
+                font-size: 20px;
+            }   
+        }
+    }
+}
