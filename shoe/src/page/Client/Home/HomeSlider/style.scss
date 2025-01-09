@@ -1,0 +1,49 @@
+// import google fonts - Montserrat
+
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Georgian:wght@100..900&family=Rokkitt:wght@100..900&display=swap');
+
+.slider {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 999;
+    }
+    &__caption{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(98, 97, 97, 0)
+    }
+    &__content{
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        &__title{
+            font-family: "Montserrat", sans-serif;
+            text-transform: uppercase;
+            font-size: 40px ;
+            letter-spacing: 1px;
+        }
+        &__button{
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+            padding: 10px 30px;
+            border: 2px #fff solid;
+            background-color: #00000091;
+            text-transform: uppercase;
+            &:hover{
+                background-color: transparent;
+                color: #000000;
+            }
+        }
+
+    }
+}

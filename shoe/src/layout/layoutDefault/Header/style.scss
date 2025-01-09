@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Serif+Georgian:wght@100..900&family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap');
+
 .header {
     padding: 0;
 }
 
-.container {
+.header-container {
     width: 1100px;
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +39,7 @@
                 align-items: center;
                 padding-left: 13px;
                 padding-right: 13px;
+                border-radius: 50%;
             }
 
             .text-search {
@@ -60,7 +65,7 @@
     }
 
     &__nav {
-        margin-top: 50px;
+        margin-top: 20px;
         align-items: center;
         &__menu {
             .menu-item{
@@ -68,11 +73,13 @@
                 padding: 0;
             }
             .item{
-                font-size: 15px;
+                font-size: 20px;
                 font-family: Georgia,  serif;
                 padding-right: 24px;
+                font-weight: 500;
                 a{
                     letter-spacing: 1px;
+                    color: #0a0a0afb;
                     text-transform: uppercase;
                     &:hover{
                         color: rgb(101, 101, 101);

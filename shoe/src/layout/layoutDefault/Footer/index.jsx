@@ -8,7 +8,7 @@ const Footer = () => {
      return (
           <>
                <div className='footer'>
-                    <div className='container'>
+                    <div className='footer-container'>
                          <Row className='footer-row'>
                               <Col className='footer-col' span={4}>
                                    <label htmlFor="" className='footer-col__title'>About Footwear</label><br/>

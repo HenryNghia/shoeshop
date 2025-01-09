@@ -1,0 +1,47 @@
+// import font google - Rokkit
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Georgian:wght@100..900&family=Rokkitt:wght@100..900&display=swap');
+
+
+.shop-wrapper {
+    margin-top: 100px;
+    &__title{
+        font-family: "Rokkitt", Georgia, serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .shop-content {
+        margin-top: 40px;
+        justify-content: space-around;
+        display: flex;
+        width: 100%;
+        &__men {
+            &__image {
+                width: 500px;
+                height: 600px;
+                object-fit: cover;
+            }
+            &__title{
+                font-family: "Rokkitt", Georgia, serif;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+
+        &__women {
+            &__image {
+                width: 500px;
+                height: 600px;
+                object-fit: cover;
+            }
+            &__title{
+                font-family: "Rokkitt", Georgia, serif;
+                font-weight: 400;
+                text-transform: uppercase;
+                text-align: center;
+            }
+        }
+    }
+
+}

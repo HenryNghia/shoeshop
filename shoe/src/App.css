@@ -32,24 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-button{
+
+button {
   font-size: 18px;
   padding: 10px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: none;
 }
-ul{
+
+ul {
   padding: 0;
 }
-li{
+
+li {
   list-style: none;
   padding: 0;
 }
-a{
-  color: #000000;
-  
+
+a {
+  color: #ffffff;
+
 }
